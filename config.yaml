@@ -1,0 +1,28 @@
+# Perturbs the values within -10% and +10%
+perturbation_range: 60
+
+# Controls the number of experiment folders
+n_samples: 250
+
+# The below matrix is a mapping to the original
+# mineral.txt file.
+#
+# To perturb a value, simply find its coordinate
+# and turn it to 1. If you don't want to perturb
+# a value, turn it off by changing the value of
+# its coordinate to 0.
+#
+# You can select a row or a column
+# and replace 0's with 1's. You can also select
+# an individual coordinate to perturb. 
+#
+# Below the fourth row (we start counting from 0)
+# is enabled. The coordinate (6,5) is also enabled.
+data: [{
+  0: [1, 0, 0, 0, 0, 0, 1, 0],
+  1: [1, 0, 0, 0, 0, 1, 0, 0],
+  2: [1, 0, 0, 0, 0, 1, 0, 0],
+  3: [1, 0, 0, 0, 0, 1, 0, 0],
+  4: [0, 0, 0, 0, 0, 0, 0, 0],
+  5: [0, 0, 0, 0, 0, 0, 0, 0],
+}]
