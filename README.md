@@ -1,4 +1,4 @@
-This is Allison's Welch branch of the GIPL model
+This is Allison Welch's branch of the GIPL model
 
 My study site is located around [69.418, -148.615](https://www.google.com/maps/place/69%C2%B025'04.8%22N+148%C2%B036'54.0%22W/@69.4093933,-151.9431329,6.19z/data=!4m4!3m3!8m2!3d69.418!4d-148.615?entry=ttu).
 
