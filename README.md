@@ -54,17 +54,28 @@ produces visualizations and statistics that compare the single-year equilibrium 
 <h4>warming_experiment_2C</h4>
 Same as warming_experiment_1C, but with 2 degree C warming.
 
+<h4>shallow_O_experiment</h4>
+This experiment decreases the organic layer depth by 25%, in accordance with field surveys of densely vegetated alder areas.
+
+<h4>O_warming_experiment</h4>
+Increases air temperature by 1 C over 10 years (as in warming_experiment_1C) and decreases O layer by 25%.
+
+<h4>snow_experiment_JFM</h4>
+This experiment increases snow depth in winter (January, February, and March) by 15% over 10 years. Modified snow 
+depths were produced using /snow_experiment_JFM/increase_snow_depth.ipynb. (Callaghan et al., 2011)
 
 
 <h2>Run</h2>
 To run an experiment, cd into that folder and run
-```bash
+```
 ~/GIPL/gipl config --gipl_config.cfg
 ```
 Check that the input and outputs in the /_experiment_/gipl_config.cfg file are correct.
 
 <h3>References</h3>
 Drew, J. W., Bret-Harte, M. S., Buchwal, A., & Heslop, C. (2023). Age matters: Older Alnus viridis ssp. fruticosa are more sensitive to summer temperatures in the Alaskan Arctic. Functional Ecology, 37, 1463–1475. https://doi.org/10.1111/1365-2435.14307 
+
+Callaghan, T.V., Johansson, M., Brown, R.D. et al. The Changing Face of Arctic Snow Cover: A Synthesis of Observed and Projected Changes. AMBIO 40 (Suppl 1), 17–31 (2011). https://doi.org/10.1007/s13280-011-0212-y
 
 Harris, I., Osborn, T. J., Jones, P., & Lister, D. (2020). Version 4 of the CRU TS monthly high-resolution gridded multivariate climate dataset. Scientific Data, 7(1), 109.
 
